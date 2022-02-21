@@ -23,12 +23,12 @@
 > 2. 친구와의 대전!\
 > /brb-rand `competitors: copyrat90 catspanner90` 
 > 3. 친구가 이미 푼 문제 중, 저는 풀지 않은 문제를 랜덤으로 골라주세요.\
-> /brb-rand `competitors: copyrat90` `options: ~solved_by:catspanner90`
-> 4. Bronze V 문제 3분 안에 푸는 연습, 2분 경과시 위험 신호\
-> /brb-rand `competitors: copyrat90` `options: tier:b5` `battle_timeout: 3` `alert_minutes: 2`
+> /brb-rand `competitors: copyrat90` `options: solved_by:catspanner90`
+> 4. Bronze 문제 3분 안에 푸는 연습, 2분 경과시 위험 신호\
+> /brb-rand `competitors: copyrat90` `options: tier:b5..b1` `battle_timeout: 3` `alert_minutes: 2`
 > 5. 시간 제한 없이, 힌트 공개도 없이 풀고 싶어요.\
 > /brb-rand `competitors: copyrat90` `tag_hint_minutes: 0` `battle_timeout: 0`
-> 6. 클래스5 문제 중 Platinum 은 제외하고 풀래요.\
+> 6. CLASS 5 문제 중 Platinum 문제는 제외하고 풀래요.\
 > /brb-rand `competitors: copyrat90` `options: in_class:5&~tier:p5..p1`
 
 ![](showcase.png)
